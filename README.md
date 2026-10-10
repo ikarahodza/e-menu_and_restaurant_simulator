@@ -24,8 +24,6 @@ An embedded systems project that simulates ordering food in a restaurant and wai
 
 ## How it works
 
-![Activity diagram](docs/dijagram.png)
-
 1. The ordering station shows a welcome screen. Clicking the encoder opens the menu.
 2. The guest rotates the encoder to pick an item and clicks to add it (with a DA/NE confirmation).
 3. Choosing **"Zavrsi narudzbu"** (finish order) asks for a final confirmation.
@@ -169,5 +167,3 @@ menu_items_base = [
 4. Repeat for more items, then select **"Zavrsi narudzbu"** and confirm with **DA**.
 5. Go to your table. The pager shows how long you need to wait.
 6. When the alarm goes off, your order is ready. **Press the button** on the pager to stop it.
-- Nedim Omanović
-- Hana Piralić
